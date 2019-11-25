@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-  color: #66BFBF;
+  color: #36b5b0;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
 }
@@ -23,8 +23,40 @@ h3{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 4px;
+  width: 6%;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+
+.Myskills{
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+
 .name{
   padding-top: 5px;
+}
+
+.hello{
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 
@@ -39,34 +71,81 @@ h3{
   bottom: 300px;
 }
 
+
 .sam{
-
-
   height: 95px;
   width: 95px;
 }
+
 .web{
-  height: 95px;
-  width: 95px;
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+
+.spanner{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
 
 .top{
-  background-color: #dff6f0;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
 .middle{
-  background-color: #9be3de;
+  background-color: #fffdf9;
   height: auto;
+  padding-bottom: 50px;
+
 
 }
 
 .bottom{
-  background-color: #dff6f0;
+  background-color: #66BFBF;
   height: auto;
+  padding-top: 20px;
 }
 
 .footer-link{
   color: #11999E;
+  padding-top: 25px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .75em;
+  margin: 0 auto 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 43px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
