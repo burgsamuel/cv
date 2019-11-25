@@ -91,7 +91,10 @@ hr {
   margin-left: 30px;
 }
 
-
+.profile{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
 
 .top{
   background-color: #EAF6F6;
@@ -103,6 +106,7 @@ hr {
   background-color: #fffdf9;
   height: auto;
   padding-bottom: 50px;
+
 
 
 }
